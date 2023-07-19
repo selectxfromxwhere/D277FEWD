@@ -1,0 +1,24 @@
+A: Create 2 low-level comprehensive page layouts that can be used to develop a 4-10 page website related to a US state, I chose Montana. The first layout should introduce the state - ie be the main page - and the second layout should be for individual city pages such as the state capitol and two additional cities in the state. 
+
+A1: include clearly denoted placeholders for each of the following semantic elements for each page of the website:
+
+Header containing introductory content (pertaining to the document as whole or a particular section of a document)
+
+Nav to place the links that allow users to navigate the site
+
+Section to display the main content of the page
+
+Aside to display information related to the content 
+
+Note: the low-level comprehensive layout of the main elements for the cities will remain the same on each page but you must customize the content on each of the pages in the next task. Most sites will have several different templates for different types of pages, you only meed to create two for this task. You can use any tool to create the low-level comprehensive layout 
+
+B: demonstrate professional communication in content and presentation of your submission. 
+
+
+#rubric:
+
+A: low-level comprehensive page layout: the submission includes 2 low-level comprehensive page layouts that can be used to develop a 4-10 page website related to a US state. The first layout introduces the state and the second can be used for individual cities. 
+
+A1: placeholders for semantic elements: the low-level comprehensive page layout includes clearly denoted place holders for EACH of the given semantic elements in EACH of the pages. the placeholders for the semantic elements are organized and presented as required. 
+
+B: professional communication: content reflects attention to detail, is organized, and focuses on the main ideas as prescribed in the task or chosen by the candidate. teminology is pertinent, is used correctly, and effectively conveys the intended meaning. Mechanics, usage, and grammar promote accurate interpretation and understanding.  
