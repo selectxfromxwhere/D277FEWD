@@ -2,23 +2,25 @@ create 4-10 pages of content
 main page must introduce the state of your choice
 second page must be state capital
 3rd and 4th must be 2 other cities within the state. 
+#DONE
 
 the info for the capital and each city can vary but must include:
 the city's population
 the year the city was founded
 the region of the state in which the city is located.
 the classification of the city: urban, suburban, rural
+#DONE
 
 each page must include (and use a suitable HTML element):
-a header for introductory content
-a nav for place navigation links
-a section to display main content
-an aside to display information related to the main content
+a header for introductory content #DONE
+a nav for place navigation links #DONE
+a section to display main content #DONE
+an aside to display information related to the main content #DONE
 
 include each of the following elements using a suitable markup:
-a link that opens to an external website using the TARGET attribute
-an html coded ordered list with 3 items
-an html coded un-ordered list with 3 items
+a link that opens to an external website using the TARGET attribute #DONE
+an html coded ordered list with 3 items #DONE
+an html coded un-ordered list with 3 items #DONE
 an html coded table consisting of 3-6 columns and 3-6 rows
 
 an external CSS file must apply the following rules to the website:
@@ -30,6 +32,7 @@ each of the following selectors:
 1 element selector to style html elements
 1 class selector that is used at least 2 times to style html elements
 1 id selector to format specific elements of the page
+#DONE
 
 add a form to one page of the website (does not have to have functional submit button)
 include text fields for user's first name, last name, and email address along with a confirmation field for the email address for verificaiton purposes, and a text box that allows user to ask a question. 
