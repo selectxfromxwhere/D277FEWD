@@ -15,13 +15,13 @@ each page must include (and use a suitable HTML element):
 a header for introductory content #DONE
 a nav for place navigation links #DONE
 a section to display main content #DONE
-an aside to display information related to the main content #DONE
+an aside to display information related to the main content NEED ON INDEX AND CONTACT STILL
 
 include each of the following elements using a suitable markup:
 a link that opens to an external website using the TARGET attribute #DONE
-an html coded ordered list with 3 items #DONE
+an html coded ordered list with 3 items NEED STILL
 an html coded un-ordered list with 3 items #DONE
-an html coded table consisting of 3-6 columns and 3-6 rows
+an html coded table consisting of 3-6 columns and 3-6 rows NEED STILL
 
 an external CSS file must apply the following rules to the website:
 a font-family declaration
@@ -49,3 +49,5 @@ all images uploaded on site
 a zip file must be uploaded with all files
 a completed copy of the student project submission form 
 acknowledge sources with in-text citations and references
+
+need: table, ordered list, aside on index and contact pages, javascript email verification

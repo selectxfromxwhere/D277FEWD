@@ -82,15 +82,6 @@ nav a{
 
 
 /*---- HEADER FOR EACH CITY PAGE ----*/
-.sub-header-helena{
-    height: 50vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(5,9,30,0.7)),url(images/helenabkg.jpeg);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: #fff;
-}
 .sub-header-kalispell{
     height: 50vh;
     width: 100%;
@@ -131,82 +122,6 @@ nav a{
     margin-top: 100px;
 }
 
-/*---- CONTENT + ASIDE FOR CITY PAGES ----*/
-.cities-content{
-    width: 80%;
-    margin: auto;
-    padding: 60px 0;
-}
-.cities-left{
-    flex-basis: 65%;
-}
-.cities-left img{
-    width: 100%;
-}
-.cities-left h2{
-    color: #222;
-    font-weight: 600;
-    margin: 30px 0;
-}
-.cities-left p{
-    color: #999;
-    padding: 0;
-}
-.cities-right{
-    flex-basis: 32%;
-}
-.cities-right h3{
-    background: #81bed5;
-    color: #fff;
-    padding: 7px 0;
-    font-size: 16px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-.cities-right div{
-    display: flex;
-    color: #555;
-    padding-top: 20px;
-    box-sizing: border-box;
-}
-.aside-col{
-    flex-basis: 44%;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: center;
-    background: #e6f2f7;
-    padding:25px;
-}
-.aside-span-img{
-    float: left;
-}
-.aside-span-img img{
-    height: 100px;
-    width: 150px;
-    border-radius: 20%;
-}
-.aside-span-text{
-    padding: 35px 5px;
-    float: right;
-    margin-left: auto;
-}
-
-
-/*---- SMALL SCREEN RESPONSIVENESS ---*/
-@media(max-width: 700px){
-        margin-left: 0px; 
-        margin-right: 15px;
-}
-@media(max-width: 700px){
-    .sub-header h1{
-        font-size: 24px;
-    }
-}
-@media(max-width: 700px){
-    .row{
-        flex-direction: column;
-    }
-}
 
 /*---- INDEX PAGE ----*/
 .montana-main-text{
@@ -294,6 +209,11 @@ p{
 .treasure-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
 .discover-montana{
     width: 80%;
     margin: auto;
@@ -341,10 +261,245 @@ p{
     opacity: 1;
 }
 
+/*- took this stuff out of index for now 
+
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.facilities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.facilities-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.facilities-col p{
+    padding:0;
+}
+.facilities-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+} */
+
+@media(max-width: 700px){
+        margin-left: 0px; 
+        margin-right: 15px;
+}
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/banner2/jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.cta h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+@media(max-width: 700px){
+    .cta h1{
+        font-size: 24px;
+    }
+}
+
+
 /*---- HELENA PAGE ----*/
-
-
-
+.wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.wrapper>*{
+     flex: 1 100%;
+}
+.main{
+    width: 65%;
+    margin: auto;
+    background: tomato;
+    padding-top: 0;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+    height: 100%;
+    font-size: 24px;
+}
+.aside{
+}
+@media all and (min-width: 800px){
+    .main{
+        flex:3
+    }
+    .aside{
+        order:2;
+    }
+    .main{
+        order:1;
+    }
+    .footer{
+        order:4;
+    }
+}
+@media all and (min-width: 600px){
+    .aside{
+        flex: 1;
+    }
+}
+.sub-header-helena{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(5,9,30,0.7)),url(images/helenabkg.jpeg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.aside-helena{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 30%;
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img {
+    width: 100%;
+}
+.about-col h1{
+    padding-top: 0;
+}
+.about-col p{
+    padding: 15px 0 25px;
+}
+.blue-btn{
+    border: 1px solid #81bed5;
+    background: transparent;
+    color: #81bed5;
+}
+.blue-btn:hover{
+    color: #fff;
+}
+.blog-content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.blog-left{
+    flex-basis: 65%;
+}
+.blog-left img{
+    width: 100%;
+}
+.blog-left h2{
+    color: #222;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.blog-left p{
+    color: #999;
+    padding: 0;
+}
+.blog-right{
+    flex-basis: 32%;
+}
+.blog-right h3{
+    background: #81bed5;
+    color: #fff;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.blog-right div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #555;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.comment-box{
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+.comment-box h3{
+    text-align: left;
+}
+.comment-form input, .comment-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+}
+.comment-form button{
+    margin: 10px 0;
+}
+.helena-table{
+    box-sizing: border-box;
+}
+.testimonials{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.testimonial-col{
+    flex-direction: column;
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #e6f2f7;
+    padding:25px;
+    cursor: pointer;
+    display: flex;
+}
+.testimonial-col img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.testimonial-col p{
+    padding: 0;
+}
+.testimonial-col h3{
+    margin-top: 15px;
+    text-align: left;
+}
+.testimonial-col .fa{
+    color: #81bed5;
+}
+.aside-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width: 700px){
+    .sub-header h1{
+        font-size: 24px;
+    }
+}
+@media(max-width: 700px){
+    .aside-row{
+        flex-direction: column;
+    }
+}
 
 /*---- CONTACT US PAGE ----*/
 .location{
@@ -392,11 +547,4 @@ p{
         border: 1px solid #ccc;
         box-sizing: border-box;
 }
-.blue-btn{
-    border: 1px solid #81bed5;
-    background: transparent;
-    color: #81bed5;
-}
-.blue-btn:hover{
-    color: #fff;
-}
+
