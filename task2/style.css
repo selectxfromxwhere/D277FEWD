@@ -419,6 +419,9 @@ p{
         border: 1px solid #ccc;
         box-sizing: border-box;
 }
+input:valid {
+    border: 2px solid #81bed5;
+}
 .blue-btn{
     border: 1px solid #81bed5;
     background: transparent;

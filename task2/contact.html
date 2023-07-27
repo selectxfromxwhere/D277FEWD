@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
-<script defer src="script.js"></script>
 </head>
 <body>
 
@@ -70,22 +69,32 @@
 <!-- page contains form with first name, last name, email field, confirmation email field per rubric -->
 <!-- all fields have placeholder text per rubric -->
 <!-- javascript used to verify email fields match per rubric -->
+<script type="text/javascript" language="javascript">
+    function checkEmails(theForm) {
+        if(theForm.email1.value != theForm.email2.value) {
+            alert('Emails must match!');
+            event.preventDefault();
+        } else {
+            return true;
+        }
+    }
+</script>
+
 <div class="contact-col">
-<form action="">
-    <input type="text" placeholder="Enter your first name" required>
-    <input type="text" placeholder="Enter your last name" required>
-    <input type="email" placeholder="Enter your email address" required>
-    <input type="email" placeholder="Verify your email address" required>
-    <input type="text" placeholder="Enter your subject" required>
-    <textarea rows="8" placeholder="Message:"></textarea>
-    <button type="submit" class="button blue-btn">Send Message</button>
+
+<form action="../" id='form' onsubmit="return checkEmails(this);">
+<input id="first-name" type="text" placeholder="Enter your first name" required>
+<input id="last-name" type="text" placeholder="Enter your last name" required>
+<input id="email1" type="email" placeholder="Enter your email address" required>
+<input id="email2" type="email" placeholder="Verify your email address" required>
+<textarea rows="8" placeholder="Message:"></textarea>
+<button type="submit" class="button blue-btn">Send Message</button>
+
 </form>
 </div>
 </div>
 </div>
 </section>
-    
-
 
 
 <!---- FOOTER ---->
@@ -101,5 +110,6 @@
     </div>
 
 </section>
+<!--<script src="emailValidate.js"></script>-->
 </body>
 </html>
