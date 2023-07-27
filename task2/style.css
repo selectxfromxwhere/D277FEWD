@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    /*font-family declaration per rubric*/
+    font-family: 'Poppins', sans-serif; 
 }
 a{
     color: #fff;
@@ -9,7 +10,8 @@ a{
 }
 
 /*---- INDEX HEADER AND NAV FOR ALL PAGES ----*/
-.header{
+/*relative positioning used per rubric*/
+.header{  
     min-height: 100vh;
     min-width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/scenery2.jpg);
@@ -17,17 +19,19 @@ a{
     background-size: cover;
     position: relative;
 }
-nav{
+nav{ 
     display: flex;
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
 }
-nav a{
+/*element selector per rubric*/
+nav a{  
     text-decoration: none;
     color: #fff;
     font-size: 20px;
 }
+/*class selector used 2+ times per rubric*/
 .nav-links{
     flex: 1;
     text-align: right;
@@ -38,7 +42,7 @@ nav a{
     padding: 8px 12px;
     position: relative;
 }
-.nav-links ul li a{
+.nav-links ul a{
     color: #FFF;
     text-decoration: none;
     font-size: 13px;
@@ -52,7 +56,8 @@ nav a{
     margin: auto;
     transition: 0.5s;
 }
-.nav-links ul li:hover::after{
+/*hover psuedo class for rollover effect on nav buttons per rubric*/
+.nav-links ul li:hover::after{ 
     content: '';
     width: 100%;
     height: 2px;
@@ -60,7 +65,6 @@ nav a{
     display: block;
     margin: auto;
 }
-
 
 /*---- FOOTER FOR ALL PAGES ----*/
 .footer{
@@ -72,6 +76,17 @@ nav a{
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 600;
+}
+/*ID selector per rubric*/
+#footer-list{
+    color: #777;
+    font-size: 14px;
+}
+.footer ol li{
+    display: inline list-item;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
 }
 .icons .fa{
     color: #81bed5;
@@ -139,6 +154,7 @@ nav a{
 }
 .cities-left{
     flex-basis: 65%;
+    margin-right: 50px; 
 }
 .cities-left img{
     width: 100%;
@@ -147,10 +163,23 @@ nav a{
     color: #222;
     font-weight: 600;
     margin: 30px 0;
+    text-align: center;
 }
 .cities-left p{
     color: #999;
     padding: 0;
+    text-align: center;
+}
+.cities-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20%; 
+}
+.cities-table td{
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
 }
 .cities-right{
     flex-basis: 32%;
@@ -177,8 +206,9 @@ nav a{
     background: #e6f2f7;
     padding:25px;
 }
+/*float property to position to one side per rubric*/
 .aside-span-img{
-    float: left;
+    float: left; 
 }
 .aside-span-img img{
     height: 100px;
@@ -190,6 +220,7 @@ nav a{
     float: right;
     margin-left: auto;
 }
+
 
 
 /*---- SMALL SCREEN RESPONSIVENESS ---*/
@@ -209,6 +240,7 @@ nav a{
 }
 
 /*---- INDEX PAGE ----*/
+/*absolute positioning used per rubric*/
 .montana-main-text{
     width: 90%;
     color: #fff;
@@ -341,10 +373,6 @@ p{
     opacity: 1;
 }
 
-/*---- HELENA PAGE ----*/
-
-
-
 
 /*---- CONTACT US PAGE ----*/
 .location{
@@ -352,7 +380,6 @@ p{
     margin: auto;
     padding: 80px 0;
 }
-
 .location iframe{
     width: 100%;
 }
