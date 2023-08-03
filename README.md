@@ -6,4 +6,4 @@ Task 1 is a mockup for an interactive website about a U.S. state
 
 Task 2 is a website which includes demographic, economic, and geographic information about the state capital and two other cities within the state. 
 
-This site is hosted here: http://jbpad277.byethost13.com/index.html
+This site is hosted here: http://www.jbpad277.byethost31.com/index.html
