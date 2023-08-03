@@ -1,8 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /*font-family declaration per rubric*/
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif; /*FONT-FAMILY DECLARATION USED PER RUBRIC*/
 }
 a{
     color: #fff;
@@ -10,14 +9,12 @@ a{
 }
 
 /*---- INDEX HEADER AND NAV FOR ALL PAGES ----*/
-/*relative positioning used per rubric*/
 .header{  
     min-height: 100vh;
     min-width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/scenery2.jpg);
     background-position: center;
     background-size: cover;
-    position: relative;
 }
 nav{ 
     display: flex;
@@ -25,13 +22,12 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-/*element selector per rubric*/
-nav a{  
+nav a{  /*ELEMENT SELECTOR PER RUBRIC*/
     text-decoration: none;
     color: #fff;
     font-size: 20px;
 }
-/*class selector used 2+ times per rubric*/
+/*CLASS SELECTOR USED 2+ TIMES PER RUBRICc*/
 .nav-links{
     flex: 1;
     text-align: right;
@@ -40,7 +36,6 @@ nav a{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
-    position: relative;
 }
 .nav-links ul a{
     color: #FFF;
@@ -56,8 +51,7 @@ nav a{
     margin: auto;
     transition: 0.5s;
 }
-/*hover psuedo class for rollover effect on nav buttons per rubric*/
-.nav-links ul li:hover::after{ 
+.nav-links ul li:hover::after{ /*HOVER PSUEDO CLASS FOR ROLLOVER EFFECT ON NAV BUTTONS PER RUBRIC*/
     content: '';
     width: 100%;
     height: 2px;
@@ -71,14 +65,15 @@ nav a{
     width: 100%;
     text-align: center;
     padding: 30px 0;
+    position: relative; /*RELATIVE POSITIONING USED PER RUBRIC*/
+    bottom: -20px;
 }
 .footer h4{
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 600;
 }
-/*ID selector per rubric*/
-#footer-list{
+#footer-list{ /*ID SELECTOR USED PER RUBRIC*/
     color: #777;
     font-size: 14px;
 }
@@ -156,9 +151,6 @@ nav a{
     flex-basis: 65%;
     margin-right: 50px; 
 }
-.cities-left img{
-    width: 100%;
-}
 .cities-left h2{
     color: #222;
     font-weight: 600;
@@ -206,10 +198,6 @@ nav a{
     background: #e6f2f7;
     padding:25px;
 }
-/*float property to position to one side per rubric*/
-.aside-span-img{
-    float: left; 
-}
 .aside-span-img img{
     height: 100px;
     width: 150px;
@@ -217,7 +205,6 @@ nav a{
 }
 .aside-span-text{
     padding: 35px 5px;
-    float: right;
     margin-left: auto;
 }
 
@@ -240,11 +227,10 @@ nav a{
 }
 
 /*---- INDEX PAGE ----*/
-/*absolute positioning used per rubric*/
 .montana-main-text{
     width: 90%;
     color: #fff;
-    position: absolute;
+    position: absolute; /*ABSOLUTE POSITIONING USED PER RUBRIC*/
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -266,7 +252,6 @@ nav a{
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
-    position: relative;
     cursor: pointer;
 }
 .button:hover{
@@ -336,7 +321,7 @@ p{
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
-    position: relative;
+    position: relative; /*REALTIVE POSITIONING USED PER RUBRIC*/
     overflow: hidden;
 }
 .discover-col img{
@@ -348,7 +333,7 @@ p{
     background: transparent;
     height: 100%;
     width: 100%;
-    position: absolute;
+    position: absolute; /*ABSOLUTE POSITIONING USED PER RUBRIC*/
     top: 0;
     left: 0;
     transition: 0.5s;
@@ -364,7 +349,7 @@ p{
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    position: absolute;
+    position: absolute; /*ABSOLUTE POSITIONING USED PER RUBRIC*/
     opacity: 0;
     transition: 0.5s;
 }
@@ -372,7 +357,22 @@ p{
     bottom: 49%;
     opacity: 1;
 }
-
+.index-aside{
+    display: inline-block;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.state-objects img{
+    float: right; /*FLOAT PROPERTY TO POSITION ONE HTML OBJECT TO THE SIDE OF ANOTHER PER RUBRIC*/
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    padding: 10px;
+}
+.state-objects p{
+    float: left; /*FLOAT PROPERTY TO POSITION ONE HTML OBJECT TO THE SIDE OF ANOTHER PER RUBRIC*/
+    line-height: 70px;
+}
 
 /*---- CONTACT US PAGE ----*/
 .location{
@@ -429,4 +429,9 @@ input:valid {
 }
 .blue-btn:hover{
     color: #fff;
+}
+.bear-image img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
 }

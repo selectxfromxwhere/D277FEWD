@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Montana State Website - Borsellino D277 PA</title>
+    <title>Montana State Website - MAIN PAGE</title>
+    <!-- PAGE TITLE IS INDIVUDUAL TOPIC PER RUBRIC -->
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,8 +14,9 @@
 <body>
 
 <!----- HEADER AND NAV LINKS ----->
-<!-- page contains header and nav per rubric -->
-<!-- page contains un-ordered list with 3+ items per rubric --> 
+<!-- PAGE CONTAINS A HEADER AND NAV PER RUBRIC -->
+<!-- PAGE CONTAINS AN UNORDERED LIST WITH 3+ ITEMS PER RUBRIC --> 
+<!-- PAGE CONTAINS A CONSISTENT MENU ALLOWING USER TO NAVIGATE TO ANY OTHER PAGE ON THE SITE PER RUBRIC --> 
 <section class="header"> 
 <nav>
     <a href="index.html">MONTANA.GOV</a>
@@ -29,23 +31,21 @@
     </div>
 </nav>
 
-<!-- main page introduces the state per rubric -->
+<!-- MAIN PAGE INTRODUCES THE STATE PER RUBRIC -->
 <div class="montana-main-text"> 
     <h1>Welcome To Montana</h1>
     <p>Montana is the 41st state of the Union, known as Big Sky Country and the Treasure State.
     </p>
     <a href="https://www.visitmt.com/" target="_blank" class="button">Visit The Last Best Place</a>
-    <!-- page contains link that opens to an external website using the TARGET attribute per rubric -->
+    <!-- LINK THAT OPENS AN EXTERNAL WEBSITE IN A NEW TAB USING THE TARGET ATTRIBUTE PER RUBRIC -->
 </div>
 </section>
 
 <!---- THE TREASURE STATE SECTION CONTENT ---->
-<!-- info for cities includes population, founding year, region, and classification per rubric -->
-<!-- page contains section for main content per rubric -->
-<!-- page contains aside per rubric -->
+<!-- PAGE CONTAINS A SECTION TO DISPLAY MAIN CONTENT PER RUBRIC -->
 <section class="treasure-state">
     <h1>The Treasure State</h1>
-    <aside><p>Montana is one of the greatest options for outdoor activities, providing visitors and residents with outstanding natural beauty and a low population density.</p></aside>
+    <p>Montana is one of the greatest options for outdoor activities, providing visitors and residents with outstanding natural beauty and a low population density.</p>
 
     <div class="row"> 
         <div class="treasure-col">
@@ -54,7 +54,7 @@
         </div>
         <div class="treasure-col">
             <h3>Economy</h3>
-            <p>Montana has an average cost of living, a low unemployment rate of 4.4%, and no sales tax. Most large employers are locally owned and operated. </p>
+            <p>Montana has an average cost of living, a median household income of $60,500 a low unemployment rate of 4.4%, and no sales tax. Most large employers are locally owned and operated. </p>
         </div>
         <div class="treasure-col">
             <h3>Climate</h3>
@@ -69,7 +69,8 @@
 
 <div class="row">
     <div class="discover-col">
-            <img src="images/helena.jpg">
+            <img src="images/helena.jpg" alt="Helena, Montana's capital">
+            <!--IMAGE WITH ALTERNATIVE TEXT PER RUBRIC-->
             <div class="discover-layer">
                 <h3><a href="helena.html">HELENA</a></h3>
             </div>
@@ -89,23 +90,31 @@
             </div>
         </div>
     </div>
+
+<!-- PAGE CONTAINS AN ASIDE PER RUBRIC -->
+<aside class="index-aside">
+    <div class="state-objects">
+        <p>State Motto: Oro Y Plata<img src="images/flag.jpeg"></p>
+        <p>State Flower: Bitterroot<img src="images/bitterroot.jpg"></p>
+        <p>State Animal: Grizzly Bear<img src="images/smilinggrizzly.jpg"></p>
+    </div>
+</aside>
 </section>
 
 <!---- FOOTER ---->
-<!-- page contains ordered list with 3+ items per rubric --> 
+<!-- PAGE CONTAINS AN ORDERED LIST WITH 3+ ITEMS PER RUBRIC --> 
 <section class="footer">
-<div class="footer-wrapper">
 <h4>ABOUT US</h4>
     <p>Follow us on social media for real-time updates on 
-        <ol id="footer-list"><li>weather and road conditions</li><li>local news and events</li><li>all state services</li></ol></p>
+<!-- THIS IS THE ID REFERENCED BY A SELECTOR IN THE STYLE SHEET PER RUBRIC -->
+    <ol id="footer-list"><li>weather and road conditions</li><li>local news and events</li><li>all state services</li></ol></p>
     <div class="icons">
         <i class="fa fa-facebook"></i>
         <i class="fa fa-twitter"></i>
         <i class="fa fa-instagram"></i>
         <i class="fa fa-linkedin"></i>
     </div>
-</div>
-
 </section>
+
 </body>
 </html>
