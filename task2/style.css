@@ -27,7 +27,7 @@ nav a{  /*ELEMENT SELECTOR PER RUBRIC*/
     color: #fff;
     font-size: 20px;
 }
-/*CLASS SELECTOR USED 2+ TIMES PER RUBRICc*/
+/*CLASS SELECTOR USED 2+ TIMES PER RUBRIC*/
 .nav-links{
     flex: 1;
     text-align: right;
@@ -357,7 +357,7 @@ p{
     bottom: 49%;
     opacity: 1;
 }
-.index-aside{
+#index-aside{ /*ID SELECTOR USED PER RUBRIC*/
     display: inline-block;
     padding-top: 100px;
     padding-bottom: 50px;
