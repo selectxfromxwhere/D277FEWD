@@ -322,7 +322,7 @@ p{
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
-    position: relative; /*REALTIVE POSITIONING USED PER RUBRIC*/
+    position: relative; /*RELATIVE POSITIONING USED PER RUBRIC*/
     overflow: hidden;
 }
 .discover-col img{
